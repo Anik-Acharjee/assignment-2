@@ -171,11 +171,14 @@ main h2{
     .gadget-product{
         width: 100%;
     }
-    .gadgets, .content, .copyright{
+    .gadgets{
         grid-template-columns: repeat(1,1fr);
     }
     .gadget{
         flex-direction: column;
+    }
+    .content{
+        grid-template-columns: repeat(1,1fr);
     }
 
 
